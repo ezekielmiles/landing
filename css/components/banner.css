@@ -1,0 +1,50 @@
+.banner {
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 20px 80px;
+  color: white;
+}
+
+.banner p {
+  color: rgb(178, 178, 178);
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 20%);
+}
+
+.container h2, p, a {
+  margin: 15px;
+  font-family: 'Inter';
+}
+
+.container h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.banner a {
+  color: black;
+  padding: 10px 40px;
+  background-color: rgb(255, 203, 32);
+  border-radius: 7px;
+  display: block;
+  width: 100px;
+  text-align: center;
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.banner p {
+  font-size: 20px;
+}
+
+.banner a:hover {
+  background-color: rgb(201, 159, 23);
+  transition: 400ms;
+}
